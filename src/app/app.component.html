@@ -1,0 +1,8 @@
+<div class="widgets">
+  <ng-container *ngFor="let btn of buttons">
+    <button (click)="btn.action()" class="btn btn-primary">{{btn.label}}</button>
+  </ng-container>
+</div>
+<ng-container #container>
+  <!--Component Widget place-->
+</ng-container>

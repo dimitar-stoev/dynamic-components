@@ -1,0 +1,28 @@
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+  width: 100%;
+  gap: 20px;
+
+  button {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+
+    transition: background 0.2s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      background: #eee;
+    }
+  }
+}

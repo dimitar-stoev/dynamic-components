@@ -1,0 +1,8 @@
+<div class="widget">
+  <div *ngFor="let option of configOptions | keyvalue">
+    <div>
+      <h3>{{option.key}}</h3>
+      <p>{{configOptions[option.key]}}</p>
+    </div>
+  </div>
+</div>
